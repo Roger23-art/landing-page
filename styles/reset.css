@@ -1,0 +1,30 @@
+/*estilos de otros componentes*/
+@import url("./header.css");
+@import url("./jumbotron.css");
+@import url("./best_products.css");
+@import url("./footer.css");
+
+
+/*estilos generales*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: auto;
+}
+
+div{
+    border: 3px green solid;
+}
+
+p{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+header{
+    background-color: black;
+    color: silver;
+    padding: 20px;
+}
+
+/*Para que mi mente relacione las acciones generadas coloco las etiquetas por orden de acción tomada no por orden alfabetico para recordar mejor el uso de cada etiqueta*/
+/*nota: justify-content: flex-star me permite llevar el texto al inicio; con flex-end al final del elemento; con space-between lo distribuimos proporcionalmente en todo el elemento y con space-evenly se distribuye en todo el elemento pero mas centrado hay space-around muy similar a space-evenly. gap permite el ajuste del espacio entre la lista*/
+
+.header_lista{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}

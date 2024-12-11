@@ -1,0 +1,11 @@
+/*jumbotron*/
+/*el .jumbotron es el espacio donde estaré trabajando */
+/*nota: aline-items: center; centrará en texto entre lo de arriba y abajo del elemento*/
+.jumbotron{
+    display: flex;
+    height: 200px;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    color: silver;
+}

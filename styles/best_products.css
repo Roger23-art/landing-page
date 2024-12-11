@@ -1,0 +1,34 @@
+/*nota: utilizo text-aling: center para centrar el texto y margin: 60px para la separación de arriba y abajo pero cero por que ya no importa las orillas pues esta centrado*/
+
+.best_products_title{
+text-align: center;
+margin: 40px 0;
+}
+
+/*vamos utilizar sistema de grillas con css con grid que a diferencia de flex no coloca los elementos de texto al lado uno de otro. grid se utiliza para señalar el No de columnas que se va a utilizar*/
+
+/*Para modificar número de columnas utilizamos grid-templete-columns y asignamos el No de las que deseamos que se repitan y que ocupen 1 fracción completa de la clase padre que es best-products-list*/
+
+/*Para separar los elementos en las columnas a sus costados despues un nuestra 1er .best_products_list asignamos un gap y despues usamos el width para que se respete el ancho de la pantalla lo que es el contenedor padre*/
+.best_products_list{
+    display: grid;
+    /*modificar el num de columnas*/
+    grid-template-columns: repeat(4, 1fr);
+    /*cambiar de 0 a auto centra a los elementos de la lista*/
+    margin: 20px auto;
+    gap: 40px;
+    list-style: none;
+    width: 90%;
+    border: 5px black solid;
+}
+/* creamos un borde solido llamando a la class best_products_list li es decir todos los de la lista y despues en los comandos de arriba colocamos un margin 120px 0;*/
+/*le quito el borde y queda mejor*/
+/*.best_products_list li{
+    border: 1px solid green;
+}*/
+
+/*NOTA: En la carpeta raiz creamos folder assets para guardar las imagenes posicionado en carpeta ruiz clic derecho nueva carpeta y podemos colocar imagenes y videos*/
+/*Aqui width lo uso para que la imagen ocupe el 60% del elemento que la contiene ya que 100% sale muy grande*/
+.best_products_list img{
+    width: 60%;
+}
